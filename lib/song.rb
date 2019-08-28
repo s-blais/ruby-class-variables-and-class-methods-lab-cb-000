@@ -24,6 +24,7 @@ class Song
   @@artists = []
   def self.artists
     @@artists.uniq
+  end
 
   def self.genre_count
     genre_hash = {}
